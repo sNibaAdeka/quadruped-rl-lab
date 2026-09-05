@@ -1,0 +1,20 @@
+mode: pd_position
+control_frequency_hz: 50
+physics_substeps: 10
+pd:
+  kp: 34.0
+  kd: 1.45
+limits:
+  max_torque_nm: 16.0
+  max_angular_velocity_rad_s: 18.0
+  max_target_velocity_rad_s: 7.0
+  max_target_acceleration_rad_s2: 70.0
+  response_delay_s: 0.030
+  torque_noise_std_nm: 0.03
+thermal_proxy:
+  ambient_c: 24.0
+  initial_c: 25.0
+  warning_c: 78.0
+  shutdown_c: 96.0
+  heating_per_joule: 0.017
+  cooling_per_second: 0.16

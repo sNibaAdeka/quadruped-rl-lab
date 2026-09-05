@@ -1,0 +1,1 @@
+{"status": "complete", "algorithm": "PPO", "total_timesteps": 300000, "step": 300000, "episodes": 647, "mean_episode_reward": 1312.931, "started_at": "2026-08-31T18:30:21.131155+00:00", "policy_path": "models/live_policy.zip", "updated_at": "2026-08-31T18:33:42.061305+00:00", "completed_at": "2026-08-31T18:33:42.122096+00:00"}

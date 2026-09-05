@@ -1,0 +1,5 @@
+# Reserved for phase 7. Training is intentionally disabled at this stage.
+algorithm: PPO
+enabled: false
+physics_frequency_hz: 500
+control_frequency_hz: 50

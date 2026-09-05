@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quadruped-rl-lab"
+version = "0.1.0"
+description = "MuJoCo physical foundation and motor test lab for a 12-DOF quadruped"
+requires-python = ">=3.12"
+dependencies = ["mujoco>=3.1", "numpy>=1.26", "PyYAML>=6", "fastapi>=0.110", "uvicorn>=0.27"]
+
+[tool.setuptools]
+packages = ["config", "simulation", "robot", "ui", "lab_logging", "physics", "rewards", "rl", "terrain"]

@@ -1,0 +1,6 @@
+timestep_s: 0.002
+gravity_m_s2: [0.0, 0.0, -9.81]
+ground_friction: 0.95
+ground_restitution: 0.0
+solver: implicitfast
+contact_margin_m: 0.002

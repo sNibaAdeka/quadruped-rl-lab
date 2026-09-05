@@ -1,0 +1,4 @@
+imu_noise_std: 0.0
+encoder_noise_std_rad: 0.0
+contact_noise_probability: 0.0
+observation_latency_s: 0.0
